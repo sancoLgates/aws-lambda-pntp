@@ -28,7 +28,7 @@ to test AWS live
 
 ```plaintext
 ### test hello world and create superadmin users
-POST https://el8tsc96ga.execute-api.ap-southeast-3.amazonaws.com/dev/hello
+POST https://s63wiiq38f.execute-api.ap-southeast-3.amazonaws.com/dev/hello
 Content-Type: application/json;charset=UTF-8
 
 {
@@ -36,7 +36,7 @@ Content-Type: application/json;charset=UTF-8
 }
 
 ### login return token, unfortunately can't implement token in every API call yet
-POST https://el8tsc96ga.execute-api.ap-southeast-3.amazonaws.com/dev/users/dev/auth/login
+POST https://s63wiiq38f.execute-api.ap-southeast-3.amazonaws.com/dev/users/dev/auth/login
 Content-Type: application/json;charset=UTF-8
 
 {
@@ -45,10 +45,10 @@ Content-Type: application/json;charset=UTF-8
 }
 
 ### get all users
-GET https://el8tsc96ga.execute-api.ap-southeast-3.amazonaws.com/dev/users
+GET https://s63wiiq38f.execute-api.ap-southeast-3.amazonaws.com/dev/users
 
 ### create user
-POST https://el8tsc96ga.execute-api.ap-southeast-3.amazonaws.com/dev/user
+POST https://s63wiiq38f.execute-api.ap-southeast-3.amazonaws.com/dev/user
 Content-Type: application/json;charset=UTF-8
 
 {
@@ -58,11 +58,11 @@ Content-Type: application/json;charset=UTF-8
 }
 
 ### get user by id
-GET https://el8tsc96ga.execute-api.ap-southeast-3.amazonaws.com/dev/user/9424fb24-914d-42f5-81c4-963cdc885d27
+GET https://s63wiiq38f.execute-api.ap-southeast-3.amazonaws.com/dev/user/9424fb24-914d-42f5-81c4-963cdc885d27
 Content-Type: application/json;charset=UTF-8
 
 ### update user
-PUT https://el8tsc96ga.execute-api.ap-southeast-3.amazonaws.com/dev/user/9424fb24-914d-42f5-81c4-963cdc885d27
+PUT https://s63wiiq38f.execute-api.ap-southeast-3.amazonaws.com/dev/user/9424fb24-914d-42f5-81c4-963cdc885d27
 Content-Type: application/json;charset=UTF-8
 
 {
@@ -70,6 +70,6 @@ Content-Type: application/json;charset=UTF-8
 }
 
 ### delete user
-DELETE https://el8tsc96ga.execute-api.ap-southeast-3.amazonaws.com/dev/user/9424fb24-914d-42f5-81c4-963cdc885d27
+DELETE https://s63wiiq38f.execute-api.ap-southeast-3.amazonaws.com/dev/user/9424fb24-914d-42f5-81c4-963cdc885d27
 Content-Type: application/json;charset=UTF-8
 ```
