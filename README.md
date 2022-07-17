@@ -18,7 +18,13 @@ npm install
 yarn
 ```
 
-then run
+to test locally run
+
+```plaintext
+sls offline start
+```
+
+to deploy to AWS run
 
 ```plaintext
 sls deploy
