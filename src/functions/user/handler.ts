@@ -5,7 +5,8 @@ import { hashPassword, comparePassword } from "@libs/helpers";
 import usersService from "../../services";
 import jwt from "jsonwebtoken";
 import { v4 } from "uuid";
-const SECRET_KEY = process.env.JWT_SECRET_KEY;
+const SECRET_KEY =
+  "sfuL+cyokTL1kBUNs5Fg1b9nwIZTKkIel6O/WQNO3ZTMdtWK/OWLIeMqalWY45XD";
 
 const generateJWT = (id: string, name: string, roles: string): string => {
   const userData: object = {
